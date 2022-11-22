@@ -231,3 +231,73 @@ footer{
 .desenvolvedor figure{
 	width:100%;
 }
+
+@media screen and (max-width: 999px){
+	h2, a, a:link, a:visited{
+		color:#228b22;
+		}
+	a:hover{
+		color:f9ad0f;
+	}
+	header{
+		height: 195px;
+		text-align:centerter;
+	}
+	header h1 a{
+		background-position:57% 0;
+		height: 126px:;
+		margin-bottom: 15px;
+		width: 100%;
+	}
+	nav{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	nav a.ativo:link, nav a:hover{
+		color:#228b22;
+	}
+	.chamada{
+		height:200px;
+	}
+	h2{
+		font-size: 2.222222222em;
+	}
+	.chamada h3{
+		font-size:1.1111111111em;
+	}
+	.meio{
+		background-color:#228b22;
+		height: 400px;
+		padding: 3.90625;
+		width: 92.1875%;
+	}
+	.desktop, .tablet, .mobile{
+		width: 31.25%;
+		height: 350px;
+	}
+	.meio .desktop figure, .meio .tablet figure, .meio .mobile figure{
+		width: 62.25%;
+
+	}
+	.meio img{
+		height:80px;
+	}
+	.meio h3{
+	font-size: 1.66666666667em;
+	}
+	.meio p{
+		font-size: 0.7777777778em;
+		height:160px;
+		line-height: 1.1428571428em;
+		padding: 2.91666666667%;
+		top:215px;
+	}
+	span.botao {
+		font-size: 1.1111111111em;
+		letter-spacing: -0.1em;
+		height: 22px;
+		position: absolute;
+		width: 50%;
+	}
+}
